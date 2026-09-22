@@ -1,0 +1,633 @@
+{
+  "system": [
+    {
+        "package": "pacman",
+        "app": "ncdu",
+        "enable": false
+    },
+    {
+        "package": "pacman",
+        "app": "timeshift",
+        "enable": false
+    },
+    {
+        "package": "pacman",
+        "app": "firewalld",
+        "enable": false
+    },
+    {
+        "package": "pacman",
+        "app": "firewall-config",
+        "enable": false
+    },
+    {
+        "package": "pacman",
+        "app": "nfs-utils",
+        "enable": true,
+        "name_system": "nfs-server"
+    },
+    {
+        "package": "pacman",
+        "app": "irqbalance",
+        "enable": true
+    },
+    {
+        "package": "pacman",
+        "app": "proton-vpn-gtk-app",
+        "enable": false
+    },
+    {
+        "package": "pacman",
+        "app": "zip",
+        "enable": false
+    },
+    {
+        "package": "yay",
+        "app": "prelockd",
+        "enable": true
+    },
+    {
+        "package": "yay",
+        "app": "preload",
+        "enable": true
+    },
+    {
+        "package": "yay",
+        "app": "uresourced",
+        "enable": true
+    }
+  ],
+  "browser": [
+   {
+        "package": "pacman",
+        "app": "vivaldi",
+        "enable": false
+    },
+    {
+        "package": "pacman",
+        "app": "vivaldi-ffmpeg-codecs",
+        "enable": false
+    },
+    {
+        "package": "pacman",
+        "app": "discord",
+        "enable": false
+    },
+    {
+        "package": "yay",
+        "app": "brave-bin",
+        "enable": false
+    }
+  ],
+  "application": [
+    {
+      "package": "pacman",
+      "app": "curl",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "libreoffice-fresh",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "simple-scan",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "drawio-desktop",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "thunderbird",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "thunderbird-i18n-fr",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "thunar",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "thunar-archive-plugin",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "thunar-volman",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "thunar-media-tags-plugin",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "vlc",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "vlc-plugin-ffmpeg",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "smplayer",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "smplayer-skins",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "smplayer-themes",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "transmission-gtk",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "cups",
+      "enable": "true",
+      "name_system": "cups.socket"
+    },
+    {
+      "package": "pacman",
+      "app": "cups-browsed",
+      "enable": "true",
+      "name_system": "cups.service"
+    },
+    {
+      "package": "pacman",
+      "app": "cups-filters",
+      "enable": "true",
+      "name_system": "cups-browsed.service"
+    },
+    {
+      "package": "pacman",
+      "app": "cups-pdf",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "system-config-printer",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "print-manager",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "rhythmbox",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "cherrytree",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "dbeaver",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "keepassxc",
+      "enable": "false"
+    },
+    {
+      "package": "yay",
+      "app": "mcomix",
+      "enable": "false"
+    },
+    {
+      "package": "yay",
+      "app": "jdownloader2",
+      "enable": "false"
+    },
+    {
+      "package": "yay",
+      "app": "avahi",
+      "enable": "true",
+      "name_system": "avahi-daemon"
+    },
+    {
+      "package": "yay",
+      "app": "dropbox",
+      "enable": "false"
+    }
+  ],
+  "game": [
+    {
+      "package": "pacman",
+      "app": "wine-staging",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "giflib",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-giflib",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "libpng",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-libpng",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "libldap",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "gnutls",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-gnutls",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "mpg123",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-libldap",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-mpg123",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "openal",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-openal",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "v4l-utils",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-v4l-utils",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "libpulse",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-libpulse",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "libgpg-error",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-libgpg-error",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "alsa-plugins",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-alsa-plugins",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "alsa-lib",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-alsa-lib",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "libjpeg-turbo",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-libjpeg-turbo",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "sqlite",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-sqlite",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "libxcomposite",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-libxcomposite",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "libxinerama",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-libgcrypt",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "libgcrypt",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-libxinerama",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "ncurses",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-ncurses",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "opencl-icd-loader",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-opencl-icd-loader",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "libxslt",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-libxslt",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "libva",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-libva",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "gtk3",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-gtk3",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "gst-plugins-base-libs",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-gst-plugins-base-libs",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "vulkan-icd-loader",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lib32-vulkan-icd-loader",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "samba",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "lutris",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "steam",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "ppsspp",
+      "enable": "false"
+    }
+  ],
+  "dev": [
+    {
+      "package": "pacman",
+      "app": "virtualbox",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "remmina",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "zeal",
+      "enable": "false"
+    },
+    {
+      "package": "yay",
+      "app": "visual-studio-code-bin",
+      "enable": "false"
+    },
+    {
+      "package": "yay",
+      "app": "android-studio",
+      "enable": "false"
+    },
+    {
+      "package": "yay",
+      "app": "intellij-idea-community-edition",
+      "enable": "false"
+    }
+  ],
+  "language": [
+    {
+      "package": "pacman",
+      "app": "php",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "php-fpm",
+      "enable": "true"
+    },
+    {
+      "package": "pacman",
+      "app": "php-apcu",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "php-cgi",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "php-gd",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "php-imagick",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "php-memcached",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "php-redis",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "php-snmp",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "php-xsl",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "composer",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "xdebug",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "nginx",
+      "enable": "true",
+      "command": [
+        "sudo mkdir -p /etc/nginx/sites-available",
+        "sudo mkdir -p /etc/nginx/sites-enabled",
+        "sudo cp nginx.conf /etc/nginx/nginx.conf"
+      ]
+    },
+    {
+      "package": "pacman",
+      "app": "nodejs",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "npm",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "yarn",
+      "enable": "false"
+    },
+    {
+      "package": "pacman",
+      "app": "mariadb",
+      "enable": "true",
+      "command": [
+        "sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql",
+        "sudo mariadb-secure-installation"
+      ]
+    }
+  ],
+  "widget": [
+    {
+      "command": [
+        "git clone https://github.com/itayavra/batterywatch.git",
+        "cd batterywatch",
+        "zip -r BatteryWatch.plasmoid .",
+        "kpackagetool6 --type Plasma/Applet --install BatteryWatch.plasmoid"
+      ]
+    }
+  ]
+}
