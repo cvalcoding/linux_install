@@ -122,100 +122,6 @@ function languageInstall {
 }
 
 function theme {
-    git clone git@github.com:EliverLara/Ant.git
-    ant="Ant/kde/Dark"
-    if [ ! -d "$ant" ]; then
-        echo "le dossier existe pas"
-        exit
-    fi
-    
-    echo ""
-    echo "Ajout du theme"
-
-    desktoptheme="$HOME/.local/share/plasma/desktoptheme"
-
-    if [ ! -d "$desktoptheme" ]; then
-        mkdir -p "$desktoptheme"
-    fi
-
-    plasma="/plasma/desktoptheme/Ant-Dark/"
-    theme="$ant$plasma"
-
-    cp -r "$theme" "$desktoptheme"
-
-    echo ""
-    echo "Ajout du llok-and-feel"
-    laf="$HOME/.local/share/plasma/look-and-feel"
-
-    if [ ! -d "$laf" ]; then
-        mkdir -p "$laf"
-    fi
-    look="/plasma/look-and-feel/Ant-Dark/"
-    theme_look="$ant$look"
-
-    cp -r "$theme_look" "$laf"
-
-    echo ""
-    echo "Ajout du aurorae"
-    aur="$HOME/.local/share/aurorae/themes/"
-
-    if [ ! -d "$aur" ]; then
-        mkdir -p "$aur"
-    fi
-    aur_folder="/aurorae/Ant-Dark"
-    theme_aurorae="$ant$aur_folder"
-
-    cp -r "$theme_aurorae" "$aur"
-
-    echo ""
-    echo "Ajout du color-scheme"
-    sch="$HOME/.local/share/color-schemes"
-
-    if [ ! -d "$sch" ]; then
-        mkdir -p "$sch"
-    fi
-    scheme_folder="/color-schemes/Ant-Dark.colors"
-    theme_scheme="$ant$scheme_folder"
-
-    cp -r "$theme_scheme" "$sch"
-
-    echo ""
-    echo "Ajout du color-scheme"
-    icn="$HOME/.local/share/icons"
-
-    if [ ! -d "$icn" ]; then
-        mkdir -p "$icn"
-    fi
-    icon_folder="/icons/Ant-Dark"
-    theme_icon="$ant$icon_folder"
-
-    cp -r "$theme_icon" "$icn"
-
-    echo ""
-    echo "Ajout du wallpaper"
-    wp="$HOME/.local/share/wallpapers"
-
-    if [ ! -d "$wp" ]; then
-        mkdir -p "$wp"
-    fi
-
-    wp_folder="/wallpaper"
-    theme_wallpaper="$ant$wp_folder"
-
-    cp -r "$theme_wallpaper" "$wp/Ant-Dark-wallpapers"
-
-    echo ""
-    echo "Ajout du theme konsole"
-    ks="$HOME/.local/share/konsole"
-
-    if [ ! -d "$ks" ]; then
-        mkdir -p "$ks"
-    fi
-
-    ks_folder="/konsole/Ant-Dark.colorscheme"
-    theme_konsole="$ant$ks_folder"
-
-    cp -r "$theme_konsole" "$ks"
 
     konsave -i ant_dark.knsv
 
@@ -238,7 +144,7 @@ function run {
     systemUpdate
     appInstall
     languageInstall
-    theme
+    # theme
     theme_edna
 }
 
