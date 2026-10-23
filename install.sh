@@ -123,6 +123,8 @@ function languageInstall {
 
 function theme {
 
+    unzip edna.zip
+
     konsave -i ant_dark.knsv
 
     konsave -a ant_dark
